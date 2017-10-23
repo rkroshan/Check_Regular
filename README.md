@@ -1,4 +1,6 @@
-<h1>App for Attendence Regularity in a smart way</h1>
+<h1><u>CHECK REGULAR</u></h1>
+<hr>
+<h2>App for Attendence Regularity in a smart way</h2>
 
 <p>Are you worried about your attendance? </p>
 
