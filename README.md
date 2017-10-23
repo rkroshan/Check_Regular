@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+App for Attendence Regularity in a smart way Edit
 
-You can use the [editor on GitHub](https://github.com/rkroshan/Check_Regular/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Are you worried about your attendance? 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Always have to wait for the attendance status to come on your college portal then check whether you are Debarred or not. Well that time has gone. This app suits your needs.
 
-### Markdown
+Now, Update your attendance every day in this app and keep a check on your attendance status. (Be SMART ...right!)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Not only this, this app offer you other cool features as well as
+•	The Predictor (to know future classes you have to go for that subject)
+•	Earlier Attendance record submission
+•	Daily Timetable and lots more.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rkroshan/Check_Regular/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I hope this app will make you Smart and helps you manage your classes regularly :)
