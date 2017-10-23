@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activities.filling_data.StudentProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10px"
+        android:layout_margin="20px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity=""
+            android:layout_height="wrap_content"
+            android:text="Student : "
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <EditText
+            android:id="@+id/student_name"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="NAME"
+            android:gravity="center"
+            android:inputType="textCapWords"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="20px"
+        android:padding="10px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Student ID : "
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <EditText
+            android:id="@+id/student_id"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:gravity="center"
+            android:hint="16A1001"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="20px"
+        android:padding="10px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="BRANCH"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <EditText
+            android:id="@+id/student_branch"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="ECE"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="20px"
+        android:padding="10px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="College Name"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <EditText
+            android:id="@+id/student_college"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="College"
+            android:gravity="center"
+            android:inputType="text" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="20px"
+        android:padding="10px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Attendance %(Required)"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <EditText
+            android:id="@+id/required_percent"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="75"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/submitprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/button"
+        android:textColor="#000"
+        android:text="SUBMIT"/>
+
+</LinearLayout>

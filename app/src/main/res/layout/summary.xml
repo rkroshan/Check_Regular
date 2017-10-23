@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Summary"
+        android:padding="2dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="SIGNALS AND SYSTEM"
+        android:padding="16dp"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/scode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="3EC107"
+        android:padding="16dp"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+
+    <TextView
+        android:id="@+id/attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:text="9/10"
+        android:gravity="center"
+        android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="75%"
+        android:textSize="75dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/greet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="CONGRATS :)"
+        android:textStyle="bold"
+        android:textColor="#0f0"
+        android:padding="16dp"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <Button
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:elevation="2dp"
+        android:backgroundTint="@color/button"
+        android:textColor="#000"
+        android:layout_margin="16dp"
+        android:text="Detail"/>
+
+</LinearLayout>

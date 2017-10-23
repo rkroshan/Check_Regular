@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.roshan_kumar.alternatingcurrent006.check_regular.TimetableSharing.ShareTimeTable">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add subjects manually"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/add_subject"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add subjects (+)"
+        android:background="@color/button"
+        android:elevation="4dp"
+        android:padding="8dp"/>
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c2c2c2"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Import Timetable"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/import_timetable"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Import Timetable"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:elevation="4dp"
+        android:padding="8dp"/>
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c2c2c2"/>
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Your Timetable"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/share"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:elevation="4dp"
+        android:text="share"/>
+
+
+
+
+</LinearLayout>

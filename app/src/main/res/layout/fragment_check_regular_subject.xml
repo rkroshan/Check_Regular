@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="50dp"
+    tools:context=".timetable.Check_regularSubject">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Regular"
+        android:layout_marginBottom="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3F2FD"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MON"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="AUG 13 2017"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today Status"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/present_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present : 0"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <TextView
+            android:id="@+id/absent_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Absent : 0"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <TextView
+            android:id="@+id/total_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total : 0"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/present"
+            android:onClick="present"
+            android:padding="10dp"
+            android:text="PRESENT"
+            android:elevation="2dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/absent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/absent"
+            android:onClick="absent"
+            android:padding="10dp"
+            android:text="ABSENT"
+            android:elevation="2dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="submit"
+        android:backgroundTint="@color/button"
+        android:textColor="#000"
+        android:text="SUBMIT"
+        android:elevation="2dp"/>
+
+</LinearLayout>
+

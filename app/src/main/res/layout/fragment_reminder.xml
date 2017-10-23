@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.roshan_kumar.alternatingcurrent006.check_regular.notification.Reminder">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Reminder 1"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/reminder1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:hint="12:00"
+            android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Reminder 2"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/reminder2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="8dp"
+                android:hint="07:00"
+                android:textIsSelectable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Reminder 3"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/reminder3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:hint="22:00"
+                    android:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    <Button
+        android:id="@+id/set"
+        android:layout_width="160dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button"
+        android:textColor="#000"
+        android:text="SET"
+        android:elevation="4dp"/>
+</LinearLayout>

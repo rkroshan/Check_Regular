@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sub_fill"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Add Subject" />
+
+        <item
+            android:id="@+id/edit_sub"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="Edit Subject" />
+
+        <item
+            android:id="@+id/daily_timetable"
+            android:icon="@drawable/ic_view_day_black_24dp"
+            android:title="Today's TimeTable"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/TIMETABLE"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="TimeTable"
+            />
+
+        <item
+            android:id="@+id/all_subjects"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="All Subjects"
+       />
+        <item
+            android:id="@+id/summary"
+            android:icon="@drawable/ic_select_all_black_24dp"
+            android:title="Summary" />
+
+        <item
+            android:id="@+id/earlier_record"
+            android:icon="@drawable/ic_dehaze_black_24dp"
+            android:title="Earlier Records" />
+        <item
+            android:id="@+id/predict_frag"
+            android:icon="@drawable/ic_blur_off_black_24dp"
+            android:title="Predictor" />
+        <item
+            android:id="@+id/clear_records"
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:title="Clear Records" />
+
+
+            <item
+                android:id="@+id/student_profile"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Student's Profile" />
+
+
+            <item
+                android:id="@+id/About_Us"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About Us" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/reminder"
+        android:orderInCategory="100"
+        android:title="Set Reminders"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/guide"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_help_outline_black_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/share_menu_item"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+
+
+</menu>
